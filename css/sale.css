@@ -1,0 +1,426 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.font{
+    padding: 10px 0px;
+}
+header{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.header-text{
+    background-color: black;
+    color: white;
+    display: flex;
+    line-height: 35px;
+    padding-top: 10px;
+
+}
+.header-text h4{
+    padding-left: 280px;
+}
+.header-text p {
+    padding-left: 20px;
+   padding-right: 20px;
+   font-style: italic;
+   font-size: 20px;
+}
+.header-text span{
+    background-color: white;
+    color: black;
+    
+    border-radius: 10px;
+    padding: 3px;
+    font-weight: bold;
+}
+.header-text h2{
+    padding-right: 10px;
+    font-size: 20px;
+}
+.header-text h2{
+    font-size: 30px;
+}
+.header-text li{
+    list-style-type: none;
+    text-decoration: underline;
+    padding-top: 5px;
+}
+.shopnow{
+    color: white;
+    list-style-type: none;
+}
+.shopnow:hover{
+    color: pink;
+    cursor: pointer;
+    cursor: grab;
+}
+.h3{
+    padding-left: 40px;
+}
+.col img{
+    width: 70%;
+    height: 80%;
+    margin-right: 400px;
+}
+
+.button:hover{
+    color: pink;
+    cursor: pointer;
+    cursor: grab;
+}
+.navbar-brand1:hover{
+    color: pink;
+    cursor: pointer;
+    cursor: grab;
+}
+.navbar-brand{
+    text-decoration: underline;
+    color: black;
+    font-size: 30px;
+    padding: 0px 20px;
+}
+.navbar-brand1{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-top: 45px;
+}
+.d-flex{
+    padding-left: 100px;
+}
+.icons{
+    color: black;
+}
+.form-control{
+    padding-left: 35px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.search{
+    font-size: 40px;
+    padding: 40px 0px;
+}
+
+.container-search {
+    position: relative;
+}
+.container-search i {
+    position: absolute;
+    top: 38%;
+    left: 10px;
+    font-size: 20px;
+}
+.container-icons i {
+    color: black;
+}
+.container-icons i:hover{
+    color: pink;
+    cursor: pointer;
+    cursor: grab;
+}
+.btn-sm-square{
+    padding: 0px 25px;
+    margin-top: 55px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+.foryou li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+#sale{
+    color: pink;
+    background-color: black;
+}
+#sale:hover{
+    color: pink;
+    cursor: pointer;
+    cursor: grab;
+}
+
+#foryouu{   
+    color: white;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+.foryou li a {
+    padding: 10px 50px;
+    font-size: 20px;
+    color: black;
+    border: 0.5px solid black;
+    border-radius: 25px;
+}
+.foryou i {
+    color: red;
+    font-size: 30px;
+}
+.foryou ul li {
+    padding: 0px 20px;
+}
+
+.container-body{
+    background-color: black;
+    font-size: 30px;
+    padding: 20px 0px;
+}
+
+.col-sm-6 h3{
+    padding-left: 50px;
+    padding-top: 25px;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+    padding: 0px 50px;
+}
+.banner img {
+    width: 100%;
+    margin-top: 20px;
+}
+.banner-text {
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+.Buynow:hover{
+    color: pink;
+    cursor: pointer;
+    cursor: grab;
+}
+.banner-text span{
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 35px;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+.banner-text h3{
+    color: white;
+    font-size: 45px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.banner-text ul {
+    list-style-type: none;
+    padding: 20px 20px;
+}
+.banner-text li a {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn:hover{
+    color: pink;
+    background-color: rgb(255, 0, 43);
+}
+.card-text{
+    color: red;
+}
+.banner-logo{
+    margin-top: 30px;
+    padding-left: 30px;
+    display: flex;  
+}
+.row h3{
+    padding-top: 20px;
+    padding-left: 45px;
+}
+.logo2{
+    padding-left: 35px;
+}
+.container-card{
+    padding: 10px 30px;
+}
+.card{
+    padding-left: 10px;
+    border: none;
+}
+.card img{
+    border-radius: 20px;
+}
+.card-hearts{
+    position: absolute;
+    left: 80%;
+    top: 74%;
+    font-size: 25px;
+    color: black;
+}
+.cart{
+    position: absolute;
+    left: 87%;
+    top: 62%;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0px 5px;
+}
+.cart:hover{
+    color: pink;
+    cursor: pointer;
+    cursor: grab;
+}
+.card-hearts:hover{
+    color: red;
+}
+.container-card2{
+    margin-top: 40px;
+    padding: 20px 30px;
+}
+.container-card2 h3{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.container-card3{
+    margin-top: 40px;
+}
+.more{
+    text-align: center;
+    margin-top: 30px;
+}
+.card-group{
+    position: relative;
+}
+.card-text1{
+    position: absolute;
+    top: 83.8%;
+    left: 55%;
+    text-decoration: line-through;
+}
+.discount-overlay {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    background-color: rgba(255, 0, 0, 0.6);
+    border: 1px solid rgba(255, 0, 0, 0.6);
+    border-radius: 25px;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+
+
+  #cartCount {
+    background-color: #ff0000; /* Màu nền */
+    color: #ffffff; /* Màu chữ */
+    font-size: 10px; /* Kích thước chữ */
+    padding: 3px 7px; /* Khoảng cách giữa nội dung và viền */
+    border-radius: 50%; /* Bo tròn viền */
+    position: absolute;
+    top: 16%;
+  }
+
+  #favoriteCount {
+    background-color: #ff0000; /* Màu nền */
+    color: #ffffff; /* Màu chữ */
+    font-size: 10px; /* Kích thước chữ */
+    padding: 3px 7px; /* Khoảng cách giữa nội dung và viền */
+    border-radius: 50%; /* Bo tròn viền */
+    position: absolute;
+    top: 16%;
+  }
+
+
+
+
+
+.logo-christmas {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.container-footer{
+    background-color: gray;
+    margin-top: 30px;
+    padding: 0px 30px;
+    font-weight: bold;
+}
+.container-footer{
+    padding-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.container-footer2{
+    background-color: #373535;
+    color: white;
+    font-weight: bold;
+}
+.container-footer2 h3{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+
+.texttt{
+    text-align: start;
+    display: flex;
+    padding: 0px 50px;
+  
+}
+.texttt h4{
+    padding: 0px 20px;
+    font-weight: bold;
+}
+.main{
+    color: black;
+}
+.click{
+    color: black;
+}
+.click:hover{
+    color: pink;
+    cursor: pointer;
+    cursor: grab;
+}
+.click1:hover{
+    color: pink;
+    cursor: pointer;
+    cursor: grab;
+}
+.color{
+    color: rgb(83, 83, 83);
+    font-weight: none;
+}
+.color:hover{
+    color: rgb(0, 180, 0);
+}
+.container-footer2 i {
+    color: white;
+    font-size: 50px;   
+    justify-content: center; 
+    align-items: center;
+}
+.container-footer2 a{
+    padding-right: 30px;
+}
+.container-footer2 i:hover{
+    color: rgb(76, 0, 255);
+}

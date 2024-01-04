@@ -1,0 +1,488 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.font{
+    padding: 10px 0px;
+}
+header{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.header-banner{
+    background-color: black;
+    color: white;
+    line-height: 40px;
+}
+.code span{
+    font-weight: bold;
+}
+.text-end li {
+    list-style-type: none;
+    text-decoration-line: underline;
+}
+
+@media (max-width: 768px){
+    h6{
+        font-size: 7.6px;
+    }
+}
+@media (max-width: 768px){
+    .code{
+        font-size: 7.6px;
+    }
+}
+
+.shopnow{
+    color: white;
+    list-style-type: none;
+}
+.shopnow:hover{
+    color: pink;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: pink;
+    cursor: pointer;
+}
+.navbar-brand1:hover{
+    color: pink;
+    cursor: pointer;
+    cursor: grab;
+}
+.navbar-brand{
+    text-decoration: underline;
+    color: black;
+    font-size: 30px;
+    padding: 0px 20px;
+}
+.navbar-brand1{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-top: 45px;
+}
+.icons{
+    color: black;
+}
+.form-control{
+    padding-left: 35px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.container-search {
+    position: relative;
+}
+.container-search i {
+    position: absolute;
+    top: 34%;
+    left: 10px;
+    font-size: 20px;
+}
+.container-icons i {
+    color: black;
+}
+.container-icons i:hover{
+    color: pink;
+    cursor: pointer;
+}
+.ms-5 i:hover {
+    color: pink;
+    cursor: pointer;
+}
+.btn-sm-square{
+    padding: 0px 25px;
+    margin-top: 55px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    color: black;
+}
+.foryou li{
+    list-style-type: none;
+    display: inline-block;
+}
+.foryou li a {
+    padding: 5px 10px;
+    font-size: 20px;
+    color: black;
+    border: 0.5px solid black;
+    border-radius: 25px;
+}
+.foryou i {
+    color: red;
+    font-size: 30px;
+}
+.foryou ul li {
+    padding: 0px 20px;
+}
+
+.container-body{
+    background-color: black;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+    padding: 0px 50px;
+    font-size: 10px;
+}
+@media (min-width: 1024px) {
+    .nav-link{
+    font-size: 12.6px;
+    }
+}
+
+
+.banner img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+:root{
+    --iconfooter2: rgb(83,83,83);
+    --click2: #ffffff;
+}
+
+.carousel-control-prev,.carousel-control-next{
+    width: 25%;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    width: 2rem;
+    height: 2rem;
+    background-color: aquamarine;
+    border: 10px solid aquamarine;
+    border-radius: 2rem;
+}
+
+
+
+
+
+
+body{
+    font-family: monospace;
+    overflow-x: hidden;
+    font-synthesis: 15px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    max-width: 90%;
+    transition: transform 1s;
+}
+header img{
+    width: 60px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .iconCart{
+    position: relative;
+    z-index: 1;
+}
+header .totalQuantity{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: x-large;
+    background-color: #b31010;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transform: translateX(20px);
+}
+.listProduct{
+    display: grid;
+    grid-template-columns: repeat(5,5fr);
+    gap: 20px;
+}
+.listProduct .item img{
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+}
+.listProduct .item{
+    position: relative;
+}
+.listProduct .item h2{
+    font-weight: 700;
+    font-size: x-large;
+}
+.listProduct .item .price{
+    font-size: x-large;
+}
+
+.listProduct .item button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #3e3d3d;
+    color: #fff;
+    width: 50%;
+    border: none;
+    padding: 20px 30px;
+    box-shadow: 0 10px 50px #000;
+    cursor: pointer;
+    transform: translateX(-50%) translateY(100px);
+    opacity: 0;
+}
+.listProduct .item:hover button{
+    transition:  0.5s;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+.cart{
+    color: #fff;
+    position: fixed;
+    width: 400px;
+    max-width: 80vw;
+    height: 100vh;
+    background-color: #464346;
+    top: 0px;
+    right: -100%;
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    gap: 20px;
+    transition: right 1s;
+}
+
+.cart .buttons .checkout{
+    background-color: #f0d2d1;
+    color: #000;
+}
+.cart h2{
+    color: #f0d2d1;
+    padding: 20px;
+    height: 30px;
+    margin: 0;
+}
+
+
+.cart .listCart .item{
+    display: grid;
+    grid-template-columns: 50px 1fr 70px;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    
+}
+.cart .listCart img{
+    width: 100%;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.cart .listCart .item .name{
+    font-weight: bold;
+}
+.cart .listCart .item .quantity{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.cart .listCart .item .quantity span{
+    display: block;
+    width: 50px;
+    text-align: center;
+}
+
+.cart .listCart{
+    padding: 20px;
+    overflow: auto;
+}
+.cart .listCart::-webkit-scrollbar{
+    width: 0;
+}
+
+.cart .buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+.cart .buttons div{
+    background-color: #3e3d3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cart .buttons a{
+    color: #fff;
+    text-decoration: none;
+}
+img{
+    border-radius: 20px;
+}
+
+
+.price {
+    font-size: 14px;
+    color: #ff0000;
+    /* Thêm các thuộc tính CSS khác tùy ý */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .container-footer{
+    background-color: gray;
+    margin-top: 30px;
+    padding: 0px 30px;
+    font-weight: bold;
+}
+.container-footer{
+    padding-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.container-footer2{
+    background-color: #373535;
+    color: white;
+    font-weight: bold;
+}
+
+
+.texttt{
+    text-align: start;
+    display: flex;
+    padding: 0px 50px;
+  
+}
+.texttt h4{
+    padding: 0px 20px;
+    font-weight: bold;
+}
+.main{
+    color: black;
+}
+.click{
+    color: black;
+}
+.click:hover{
+    color: pink;
+    cursor: pointer;
+}
+.click1:hover{
+    color: pink;
+    cursor: pointer;
+}
+.color{
+    color: rgb(83, 83, 83);
+    font-weight: none;
+}
+.color:hover{
+    color: rgb(0, 180, 0);
+}
+.footericon i {
+    color: rgb(83, 83, 83);
+}
+.founderinfo a{
+    color: var(--click2);
+}
+.founderinfo span:hover{
+    color: var(--click2);
+}
+
+.container-footer2 a{
+    padding-right: 30px;
+}
+.container-footer2 i:hover{
+    color: var(--click2);
+    cursor: grab;
+    cursor: pointer;
+}
+.phoneicon{
+    font-size: 20px;
+}
+
+.founderinfo a{
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.footericon{
+    justify-content: space-between;
+}
+.footericon i{
+    font-size: 40px;
+}
+
+
+@media (max-width: 768px) 
+{
+   .footericon i 
+        {
+                font-size: 20px;
+
+        }
+}
+
+@media (max-width: 768px) 
+{
+   .founderinfo a 
+        {
+                font-size: 12px;
+
+        }
+}
+@media (max-width: 768px) 
+{
+   .founder 
+        {
+                font-size: 12px;
+
+        }
+}
+@media (max-width: 768px) 
+{
+   .banquyen 
+        {
+                font-size: 16px;
+
+        }
+}
+@media (max-width: 768px) 
+{
+   .contactus 
+        {
+                font-size: 16px;
+
+        }
+}
+@media (max-width: 768px) 
+{
+   .phoneicon
+        {
+                font-size: 14px;
+
+        }
+}

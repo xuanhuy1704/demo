@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "name": "Nike M2k Tekno",
+        "price": 600.000,
+        "image": "imagessanpham/2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Nike Dunk Low",
+        "price": 300.000,
+        "image": "imagessanpham/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Nike Air Jordan 4",
+        "price": 400.000,
+        "image": "imagessanpham/4.jpg"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Nike Air Jordan 1",
+        "price": 500.000,
+        "image": "imagessanpham/3.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Nike Air Jordan 1",
+        "price": 600.000,
+        "image": "imagessanpham/5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Nike Air Jordan 1",
+        "price": 700.000,
+        "image": "imagessanpham/6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Nike Air Jordan 1",
+        "price": 700.000,
+        "image": "imagessanpham/7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Nike Air Jordan 1",
+        "price": 120,
+        "image": "imagessanpham/8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Nike Air Jordan 1",
+        "price": 600.000,
+        "image": "imagessanpham/2.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Nike Air Jordan 1",
+        "price": 600.000,
+        "image": "imagessanpham/2.jpg"
+    }
+]

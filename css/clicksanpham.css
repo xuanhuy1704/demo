@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.font{
+    padding: 10px 0px;
+}
+header{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.header-banner{
+    background-color: black;
+    color: white;
+    line-height: 40px;
+}
+.code span{
+    font-weight: bold;
+}
+.text-end li {
+    list-style-type: none;
+    text-decoration-line: underline;
+}
+
+@media (max-width: 768px){
+    h6{
+        font-size: 7.6px;
+    }
+}
+@media (max-width: 768px){
+    .code{
+        font-size: 7.6px;
+    }
+}
+
+.shopnow{
+    color: white;
+    list-style-type: none;
+}
+.shopnow:hover{
+    color: pink;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: pink;
+    cursor: pointer;
+}
+.navbar-brand1:hover{
+    color: pink;
+    cursor: pointer;
+    cursor: grab;
+}
+.navbar-brand{
+    text-decoration: underline;
+    color: black;
+    font-size: 30px;
+    padding: 0px 20px;
+}
+.navbar-brand1{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-top: 45px;
+}
+.icons{
+    color: black;
+}
+.form-control{
+    padding-left: 35px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.container-search {
+    position: relative;
+}
+.container-search i {
+    position: absolute;
+    top: 34%;
+    left: 10px;
+    font-size: 20px;
+}
+.container-icons i {
+    color: black;
+}
+.container-icons i:hover{
+    color: pink;
+    cursor: pointer;
+}
+.ms-5 i:hover {
+    color: pink;
+    cursor: pointer;
+}
+.btn-sm-square{
+    padding: 0px 25px;
+    margin-top: 55px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    color: black;
+}
+.foryou li{
+    list-style-type: none;
+    display: inline-block;
+}
+.foryou li a {
+    padding: 5px 10px;
+    font-size: 20px;
+    color: black;
+    border: 0.5px solid black;
+    border-radius: 25px;
+}
+.foryou i {
+    color: red;
+    font-size: 30px;
+}
+.foryou ul li {
+    padding: 0px 20px;
+}
+
+.container-body{
+    background-color: black;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+    padding: 0px 50px;
+    font-size: 10px;
+}
+@media (min-width: 1024px) {
+    .nav-link{
+    font-size: 12.6px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-footer{
+    background-color: gray;
+    margin-top: 30px;
+    padding: 0px 30px;
+    font-weight: bold;
+}
+.container-footer{
+    padding-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.container-footer2{
+    background-color: #373535;
+    color: white;
+    font-weight: bold;
+}
+.container-footer2 h3{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+
+.texttt{
+    text-align: start;
+    display: flex;
+    padding: 0px 50px;
+  
+}
+.texttt h4{
+    padding: 0px 20px;
+    font-weight: bold;
+}
+.main{
+    color: black;
+}
+.click{
+    color: black;
+}
+.click:hover{
+    color: pink;
+    cursor: pointer;
+    cursor: grab;
+}
+.click1:hover{
+    color: pink;
+    cursor: pointer;
+    cursor: grab;
+}
+.color{
+    color: rgb(83, 83, 83);
+    font-weight: none;
+}
+.color:hover{
+    color: rgb(0, 180, 0);
+}
+.container-footer2 i {
+    color: white;
+    font-size: 50px;   
+    justify-content: center; 
+    align-items: center;
+}
+.container-footer2 a{
+    padding-right: 30px;
+}
+.container-footer2 i:hover{
+    color: rgb(76, 0, 255);
+}

@@ -1,0 +1,373 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.font{
+    padding: 10px 0px;
+}
+header{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.header-banner{
+    background-color: black;
+    color: white;
+    line-height: 40px;
+}
+.code span{
+    font-weight: bold;
+}
+.text-end li {
+    list-style-type: none;
+    text-decoration-line: underline;
+}
+
+@media (max-width: 768px){
+    h6{
+        font-size: 7.6px;
+    }
+}
+@media (max-width: 768px){
+    .code{
+        font-size: 7.6px;
+    }
+}
+
+.shopnow{
+    color: white;
+    list-style-type: none;
+}
+.shopnow:hover{
+    color: pink;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: pink;
+    cursor: pointer;
+}
+.navbar-brand1:hover{
+    color: pink;
+    cursor: pointer;
+    cursor: grab;
+}
+.navbar-brand{
+    text-decoration: underline;
+    color: black;
+    font-size: 30px;
+    padding: 0px 20px;
+}
+.navbar-brand1{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-top: 45px;
+}
+.icons{
+    color: black;
+}
+.form-control{
+    padding-left: 35px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.container-search {
+    position: relative;
+}
+.container-search i {
+    position: absolute;
+    top: 34%;
+    left: 10px;
+    font-size: 20px;
+}
+.container-icons i {
+    color: black;
+}
+.container-icons i:hover{
+    color: pink;
+    cursor: pointer;
+}
+.ms-5 i:hover {
+    color: pink;
+    cursor: pointer;
+}
+.btn-sm-square{
+    padding: 0px 25px;
+    margin-top: 55px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    color: black;
+}
+.foryou li{
+    list-style-type: none;
+    display: inline-block;
+}
+.foryou li a {
+    padding: 5px 10px;
+    font-size: 20px;
+    color: black;
+    border: 0.5px solid black;
+    border-radius: 25px;
+}
+.foryou i {
+    color: red;
+    font-size: 30px;
+}
+.foryou ul li {
+    padding: 0px 20px;
+}
+
+.container-body{
+    background-color: black;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+    padding: 0px 50px;
+    font-size: 10px;
+}
+@media (min-width: 1024px) {
+    .nav-link{
+    font-size: 12.6px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.row img{
+    border: none;
+    padding-left: 50px;
+}
+
+.text-basket{
+    display: flex;
+    padding-left: 50px;
+}
+h2{
+    padding-left: 10px;
+}
+.card-text{
+    color: red;
+    font-size: 30px;
+
+}
+.card-text1{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    text-decoration: line-through;
+    font-size: 30px;
+
+}
+.card-title{
+    padding-top: 5px;
+    font-size: 30px;
+}
+.container-basket{
+    position: relative;
+}
+.container-basket1{
+    position: relative;
+}
+.card-text2{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    text-decoration: line-through;
+    font-size: 30px;
+}
+.icon-basket{
+    display: flex;
+    font-size: 30px;
+}
+.color-picker{
+    display: flex;
+    font-size: 30px;
+}
+
+.color-picker1 input[type="radio"]:checked + .form-check-label {
+    border: 10px solid rgb(255, 0, 0);
+    border-radius: 10px;
+  }
+  .color-picker2 input[type="radio"]:checked + .form-check-label {
+    border: 10px solid rgb(0, 255, 153);
+    border-radius: 10px;
+  }
+
+  .color-picker3 input[type="radio"]:checked + .form-check-label {
+    border: 10px solid rgb(255, 213, 0);
+    border-radius: 10px;
+  }
+
+.col-lg-2 i{
+    font-size: 50px;
+}
+.icons-basket{
+    color: black;
+}
+.icon-basket h4{
+    padding: 10px 20px;
+}       
+.icons-basket:hover{
+    color: pink;
+    cursor: pointer;
+    cursor: grab;
+}
+
+
+
+  
+
+
+
+
+
+.container-footer{
+    background-color: gray;
+    margin-top: 30px;
+    padding: 0px 30px;
+    font-weight: bold;
+}
+.container-footer{
+    padding-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.container-footer2{
+    background-color: #373535;
+    color: white;
+    font-weight: bold;
+}
+
+
+.texttt{
+    text-align: start;
+    display: flex;
+    padding: 0px 50px;
+  
+}
+.texttt h4{
+    padding: 0px 20px;
+    font-weight: bold;
+}
+.main{
+    color: black;
+}
+.click{
+    color: black;
+}
+.click:hover{
+    color: pink;
+    cursor: pointer;
+}
+.click1:hover{
+    color: pink;
+    cursor: pointer;
+}
+.color{
+    color: rgb(83, 83, 83);
+    font-weight: none;
+}
+.color:hover{
+    color: rgb(0, 180, 0);
+}
+.footericon i {
+    color: rgb(83, 83, 83);
+}
+.founderinfo a{
+    color: var(--click2);
+}
+.founderinfo span:hover{
+    color: var(--click2);
+}
+
+.container-footer2 a{
+    padding-right: 30px;
+}
+.container-footer2 i:hover{
+    color: var(--click2);
+    cursor: grab;
+    cursor: pointer;
+}
+.phoneicon{
+    font-size: 20px;
+}
+
+.founderinfo a{
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.footericon{
+    justify-content: space-between;
+}
+.footericon i{
+    font-size: 40px;
+}
+
+
+@media (max-width: 768px) 
+{
+   .footericon i 
+        {
+                font-size: 20px;
+
+        }
+}
+
+@media (max-width: 768px) 
+{
+   .founderinfo a 
+        {
+                font-size: 12px;
+
+        }
+}
+@media (max-width: 768px) 
+{
+   .founder 
+        {
+                font-size: 12px;
+
+        }
+}
+@media (max-width: 768px) 
+{
+   .banquyen 
+        {
+                font-size: 16px;
+
+        }
+}
+@media (max-width: 768px) 
+{
+   .contactus 
+        {
+                font-size: 16px;
+
+        }
+}
+@media (max-width: 768px) 
+{
+   .phoneicon
+        {
+                font-size: 14px;
+
+        }
+}   

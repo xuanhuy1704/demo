@@ -1,0 +1,477 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.header-banner{
+    background-color: black;
+    color: white;
+    line-height: 40px;
+}
+.code span{
+    font-weight: bold;
+}
+.text-end li {
+    list-style-type: none;
+    text-decoration-line: underline;
+}
+
+@media (max-width: 768px){
+    h6{
+        font-size: 7.6px;
+    }
+}
+@media (max-width: 768px){
+    .code{
+        font-size: 7.6px;
+    }
+}
+
+.shopnow{
+    color: white;
+    list-style-type: none;
+}
+.shopnow:hover{
+    color: pink;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: pink;
+    cursor: pointer;
+}
+.navbar-brand1:hover{
+    color: pink;
+    cursor: pointer;
+    cursor: grab;
+}
+.navbar-brand{
+    text-decoration: underline;
+    color: black;
+    font-size: 30px;
+    padding: 0px 20px;
+}
+.navbar-brand1{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-top: 45px;
+}
+.icons{
+    color: black;
+}
+.form-control{
+    padding-left: 35px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.container-search {
+    position: relative;
+}
+.container-search i {
+    position: absolute;
+    top: 34%;
+    left: 10px;
+    font-size: 20px;
+}
+.container-icons i {
+    color: black;
+}
+.container-icons i:hover{
+    color: pink;
+    cursor: pointer;
+}
+.ms-5 i:hover {
+    color: pink;
+    cursor: pointer;
+}
+.btn-sm-square{
+    padding: 0px 25px;
+    margin-top: 55px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    color: black;
+}
+.foryou li{
+    list-style-type: none;
+    display: inline-block;
+}
+.foryou li a {
+    padding: 5px 10px;
+    font-size: 20px;
+    color: black;
+    border: 0.5px solid black;
+    border-radius: 25px;
+}
+.foryou i {
+    color: red;
+    font-size: 30px;
+}
+.foryou ul li {
+    padding: 0px 20px;
+}
+
+.container-body{
+    background-color: black;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+    padding: 0px 50px;
+    font-size: 10px;
+}
+@media (min-width: 1024px) {
+    .nav-link{
+    font-size: 12.6px;
+    }
+}
+
+
+
+
+
+
+.banner img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+:root{
+    --iconfooter2: rgb(83,83,83);
+    --click2: #ffffff;
+}
+
+.carousel-control-prev,.carousel-control-next{
+    width: 25%;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    width: 2rem;
+    height: 2rem;
+    background-color: aquamarine;
+    border: 10px solid aquamarine;
+    border-radius: 2rem;
+}
+
+
+.banner-text {
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+.Buynow:hover{
+    color: pink;
+    cursor: pointer;
+    cursor: grab;
+}
+.banner-text span{
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 35px;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+.banner-text h3{
+    color: white;
+    font-size: 45px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.banner-text ul {
+    list-style-type: none;
+    padding: 20px 20px;
+}
+.banner-text li a {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn:hover{
+    color: pink;
+    background-color: rgb(255, 0, 43);
+}
+.card-text{
+    color: red;
+}
+.banner-logo{
+    margin-top: 30px;
+    padding-left: 30px;
+    display: flex;  
+}
+.row h3{
+    padding-top: 20px;
+    padding-left: 45px;
+}
+.logo2{
+    padding-left: 35px;
+}
+.container-card{
+    padding: 10px 30px;
+}
+.card{
+    padding-left: 10px;
+    border: none;
+}
+.card img{
+    border-radius: 20px;
+}
+.card-hearts{
+    position: absolute;
+    left: 80%;
+    top: 74%;
+    font-size: 25px;
+    color: black;
+}
+.cart{
+    position: absolute;
+    left: 87%;
+    top: 62%;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0px 5px;
+}
+.cart:hover{
+    color: pink;
+    cursor: pointer;
+    cursor: grab;
+}
+.card-hearts:hover{
+    color: red;
+}
+.container-card2{
+    margin-top: 40px;
+    padding: 20px 30px;
+}
+.container-card2 h3{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.container-card3{
+    margin-top: 40px;
+}
+.more{
+    text-align: center;
+    margin-top: 30px;
+}
+.card-group{
+    position: relative;
+}
+.card-text1{
+    position: absolute;
+    top: 84.4%;
+    left: 55%;
+    text-decoration: line-through;
+}
+
+.card-text2{
+    position: absolute;
+    top: 84.9%;
+    left: 55%;
+    text-decoration: line-through;
+}
+
+
+.discount-overlay {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    background-color: rgba(255, 0, 0, 0.6);
+    border: 1px solid rgba(255, 0, 0, 0.6);
+    border-radius: 25px;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+
+  .card-body .item button{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    background-color: #ff1e56;
+    color: #fff;
+    width: 50%;
+    border: none;
+    padding: 20px 30px;
+    box-shadow: 0 10px 50px #000;
+    cursor: pointer;
+    transform: translateX(-50%) translateY(40px);
+    opacity: 0;
+}
+.card-body   .item:hover button{
+    transition:  0.9s;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+
+  
+
+ 
+
+
+
+
+.logo-christmas {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.container-footer{
+    background-color: gray;
+    margin-top: 30px;
+    padding: 0px 30px;
+    font-weight: bold;
+}
+.container-footer{
+    padding-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.container-footer2{
+    background-color: #373535;
+    color: white;
+    font-weight: bold;
+}
+
+
+.texttt{
+    text-align: start;
+    display: flex;
+    padding: 0px 50px;
+  
+}
+.texttt h4{
+    padding: 0px 20px;
+    font-weight: bold;
+}
+.main{
+    color: black;
+}
+.click{
+    color: black;
+}
+.click:hover{
+    color: pink;
+    cursor: pointer;
+}
+.click1:hover{
+    color: pink;
+    cursor: pointer;
+}
+.color{
+    color: rgb(83, 83, 83);
+    font-weight: none;
+}
+.color:hover{
+    color: rgb(0, 180, 0);
+}
+.footericon i {
+    color: rgb(83, 83, 83);
+}
+.founderinfo a{
+    color: var(--click2);
+}
+.founderinfo span:hover{
+    color: var(--click2);
+}
+
+.container-footer2 a{
+    padding-right: 30px;
+}
+.container-footer2 i:hover{
+    color: var(--click2);
+    cursor: grab;
+    cursor: pointer;
+}
+.phoneicon{
+    font-size: 20px;
+}
+
+.founderinfo a{
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.footericon{
+    justify-content: space-between;
+}
+.footericon i{
+    font-size: 40px;
+}
+
+
+@media (max-width: 768px) 
+{
+   .footericon i 
+        {
+                font-size: 20px;
+
+        }
+}
+
+@media (max-width: 768px) 
+{
+   .founderinfo a 
+        {
+                font-size: 12px;
+
+        }
+}
+@media (max-width: 768px) 
+{
+   .founder 
+        {
+                font-size: 12px;
+
+        }
+}
+@media (max-width: 768px) 
+{
+   .banquyen 
+        {
+                font-size: 16px;
+
+        }
+}
+@media (max-width: 768px) 
+{
+   .contactus 
+        {
+                font-size: 16px;
+
+        }
+}
+@media (max-width: 768px) 
+{
+   .phoneicon
+        {
+                font-size: 14px;
+
+        }
+}
